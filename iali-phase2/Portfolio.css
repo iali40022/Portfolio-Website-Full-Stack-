@@ -1,0 +1,106 @@
+header {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+
+header li {
+  font-size: 2em;
+  margin-bottom: 3em;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+body {
+  background-image: url(main\ background\ image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+  height: 50em;
+  width: 100%;
+  backdrop-filter: blur(0.5em);
+}
+/* styling for the header of the miniproject */
+.miniproject h2 {
+  font-family: "Bebas Neue", cursive;
+  color: blue;
+  font-size: 2.5em;
+  margin-top: 0em;
+  margin: 0em;
+  font-weight: bold;
+}
+.miniproject {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 3em auto 0 auto;
+  width: 50%;
+  height: 30%;
+  background-color: cyan;
+  border-radius: 2em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+.shirts h6 {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  color: blue;
+  font-size: 2.5em;
+  margin-top: 0em;
+  margin: 0em;
+  font-weight: bold;
+}
+/* styling for the shirts project section */
+.shirts {
+  background-color: antiquewhite;
+  border: 0.1em solid #ddd;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 2em 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+  padding-left: 10em;
+  padding-right: 3em;
+}
+.movies h1 {
+  font-family: "Blaka Ink", cursive;
+  font-size: 3em;
+  margin-top: 0;
+  color: goldenrod;
+}
+/*styling for the movies project section */
+.movies {
+  background-color: blue;
+  border: 0.1em solid #ddd;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 2em 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+  padding-left: 26em;
+  padding-right: 26em;
+}
+.wrapper3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
